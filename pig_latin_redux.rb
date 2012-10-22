@@ -13,7 +13,6 @@ module PigLatin #only one word at a time (convert to array)
         a.chars.to_a.collect do |c| #Consonants
           if c.start_with?("b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n",
                            "p", "q", "r", "s", "t", "v", "w", "x", "y", "z")
-            p c
             f.push(c)
           else
             g = f.count             #
