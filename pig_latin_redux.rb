@@ -38,7 +38,7 @@ class Translator
   end
 end
 
-require "~/Ruby/performance_monitor.rb"
+require "performance_monitor.rb"
 p "Pig Latin Translator"
 print "Enter English Word(s): "
 puts performance{p Translator.pig(gets)}
